@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script>
+            function changeLabel() {
+                elem = document.getElementById('button')
+                if (elem.innerHTML == "I clicked a button...") {
+                    elem.innerHTML = "...and I liked it!"
+                } else {
+                    elem.innerHTML = "I clicked a button..."
+                }
+            }
+
+            function changePara() {
+                document.getElementsByTagName("p")[0].innerHTML += "<b> - changed!</b>"; 
+            }
+        </script>
+
+    </head>
+
+    <body>
+
+        <button id="button" onclick="changeLabel()">I clicked a button...</button>
+
+        <button id="b" onclick="changePara()">
+            Change paragraphs
+        </button>
+
+        <p>Paragraph</p>
+
+    </body>
+</html>

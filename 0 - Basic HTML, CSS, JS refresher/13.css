@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica;
+}
+
+h1 {
+    color: blue;
+}
+
+.red_p {
+    color: red;
+}
+
+#blue_p {
+    color: blue;
+}
+
+#green_p {
+    color: green;
+}
+
+#hyperlink_no_underline {
+    text-decoration: none;
+}
+
+.leftalign_p {
+    text-align: left;
+}
+
+.rightalign_p {
+    text-align: right;
+}
+
+.centeralign_p {
+    text-align: center;
+}

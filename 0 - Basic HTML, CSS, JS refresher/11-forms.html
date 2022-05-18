@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="" method="POST">
+            <!-- input -->
+            <label>Basics:</label>
+            <fieldset id="input_group">
+                <label>Name:</label>
+                <input type="text" value="Abe Mauve"><br><br>
+                <label>Email:</label>
+                <input type="email" placeholder="user@domain.ext" required><br><br>
+                <label>Df-ID:</label>
+                <input type="text" disabled>
+            </fieldset>
+
+            <br>
+
+            <label>Birthday:</label>
+            <fieldset id="date_group">
+                <input type="date">
+            </fieldset>
+
+            <br>
+
+            <!-- radio buttons -->
+            <label>Gender:</label><br>
+            <fieldset id="radio_group">
+                <input type="radio" name="gender" checked>
+                <label>Male</label><br>
+
+                <input type="radio" name="gender">
+                <label>Female</label><br>
+
+                <input type="radio" name="gender">
+                <label>Other</label>
+            </fieldset>
+
+            <br>
+
+            <!-- checkboxes -->
+            <label>Deliver pizza to:</label><br>
+            <fieldset id="checkbox_group">
+                <input type="checkbox" checked>
+                <label>Timbuktu</label><br>
+
+                <input type="checkbox">
+                <label>Antarctica</label><br>
+
+                <input type="checkbox" checked>
+                <label>Lapland</label>
+            </fieldset>
+
+            <br>
+
+            <!-- Misc -->
+            <label>Misc:</label><br>
+            <fieldset id="misc">
+                <label>File</label><br>
+                <input type="file"><br><br>
+
+                <label>Color</label><br>
+                <input type="color"><br><br>
+
+                <label>Number</label><br>
+                <input type="number"><br><br>
+
+                <label>Month</label><br>
+                <input type="month"><br><br>
+
+                <label>Time</label><br>
+                <input type="time">
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Submit Form">
+
+        </form>
+    </body>
+</html>

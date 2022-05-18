@@ -1,0 +1,36 @@
+.box {
+  width: 700px;
+  background-color: orange;
+  margin: 30px 30px 30px 30px;
+  padding: 20px 20px 20px 20px;
+  border: 10px double red;
+}
+
+a {
+  font-size: 4em;
+  margin: 10px;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: violet;
+}
+
+a:active {
+  color: magenta;
+}
+
+p:nth-child(3) {
+  color: orangered;
+}
+
+p:nth-child(odd) {
+  background-color: yellow;
+}
